@@ -17,7 +17,17 @@ Or if you just want to download everything on the spot:
 deli install allmod
 ````
 ## Important Things
-Delta is based around similar syntax to other programming languages, such as C and all the other ones.
-This language is statically typed and doesn't care about whitespaces when indenting.
+Delta is based around similar syntax to other programming languages, such as C and all the other ones. This language is statically typed and doesn't care about whitespaces when indenting, anything that goes inside of the curly braces, is now inside of the block. This language also uses semi colons to mark the end of the code. The semi colons have actual use because they are useful when you write a long piece of code.
+````
+let x: str = "This piece of text is so long that the line can't fit it and the semi colons are actually useful to mark the end
+of this line.";
+````
 
 ## Language Tutorial
+
+### Variable Declaration
+This language uses the typescript format for the declaration.
+````
+let x: int8;
+````
+To assig
